@@ -1,0 +1,112 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeFile="MasterPage.master.cs" Inherits="MasterPage" %>
+
+<!DOCTYPE html>
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head runat="server">
+    <title>Courior Service</title>
+   
+    <style type="text/css">
+        .auto-style1 {
+            width: 831px;
+            height: 282px;
+        }
+        .auto-style3 {
+            width: 1009px;
+            height: 282px;
+        }
+        .auto-style4 {
+            color: #000080;
+        }
+        .auto-style5 {
+            width: 1105px;
+            height: 282px;
+        }
+    </style>
+   
+</head>
+<body style="color:white; Background:#666666">
+    <form id="form1" runat="server">
+        <div width="800" style="height: 247px; background-color:#010101;flex-align:center">
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+<asp:Image ID="Image2" runat="server" Height="204px" ImageUrl="~/Image/logo.png" Width="1077px" style=" flex-align:center" />
+            &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp;<asp:Image ID="Image8" runat="server" ImageUrl="~/Image/courier-inventory-management-dubai-courier.gif" style="margin-left: 0px ; flex-align:center" Width="155px" Height="167px" />
+            &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<br />
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;<asp:Label ID="Label3" runat="server"></asp:Label>
+            &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+            <br />
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+            <br />
+            <center><span style="font-size: large; font-style: italic; color:whitesmoke; font-weight: 700; background-color:orange"> Best services ,Deliver Best,fast,any time, any time , any ware<br />&nbsp;</center> 
+            <br />
+            </span></div>
+   
+        <hr style="margin-top: 30px; background-color:orange; color:black;"/> <div style="margin-left: 40px">
+        <div style="font-weight: 700; color:white ; background-color:#37373c">
+            <br />
+            <div style="background-color:white;border:solid">
+            <a href="welcome.aspx">Home</a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+         <a href="login.aspx">Login</a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+         <a href="aboutus.aspx">About Us</a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+         <a href="contact.aspx">Contac Us</a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 
+         <a href="network.aspx">Network</a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+         <a href="services.aspx">Services</a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+          <a href="term.aspx">Term & Condition</a>&nbsp;&nbsp;&nbsp;&nbsp;
+             <asp:LinkButton ID="LinkButton1" runat="server" PostBackUrl="~/feedback.aspx" >Feedback</asp:LinkButton>
+             &nbsp;&nbsp;&nbsp;&nbsp;
+             <a href="delivary.aspx">Delivary</a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a href="map.aspx">Our Location</a></div>
+        <asp:ContentPlaceHolder id="ContentPlaceHolder1" runat="server">
+            <asp:Panel ID="Panel1" runat="server" BackColor="#666666" BorderColor="Black" BorderStyle="Solid" BorderWidth="3px" Height="714px" ScrollBars="Both" style="margin-left: 112px; margin-right: 0px; margin-top: 15px; margin-bottom: 0px" Width="875px">
+      </div>   
+            
+            
+        </asp:Panel>
+        </asp:ContentPlaceHolder>
+    </div>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<br />
+            &nbsp;&nbsp;
+      <!--  <div style="height: 312px; margin-top: 0px; width: 1452px;">-->
+        <center>
+            <table border="1" background-color="#010101">
+                <tr>
+                    <td class="auto-style1" style="background-color: #010101">
+                        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+               
+                <asp:Label ID="Label1" runat="server" Font-Bold="True" Font-Size="X-Large" Text="Contact" ForeColor="#006600"></asp:Label>
+                        <br />
+                <asp:TextBox ID="TextBox1" runat="server" Font-Bold="True" Font-Size="X-Large" Height="150px" TextMode="MultiLine" Width="216px" ForeColor="#FF6600">&quot;Shree Anjani House&quot;
+hari road
+amreli-365450</asp:TextBox>
+
+
+                    </td>
+                    <td class="auto-style5" style="background-color: #010101; color: #010101;">&nbsp;<asp:Image ID="Image3" runat="server" Height="35px" ImageUrl="~/Image/v.PNG" />
+                <asp:Label ID="Label2" runat="server" Font-Bold="True" Text="079 - 25461202 / 25450506" ForeColor="Blue"></asp:Label>
+                        <br />
+                        <br />
+                        <br />
+                        <br />
+                        <br />
+                        <br />
+                        <asp:ImageButton ID="Image4" runat="server" Height="35px" ImageUrl="~/Image/whatsapp.PNG" OnClick="Image4_Click" />
+&nbsp;&nbsp;&nbsp;
+                        <asp:ImageButton ID="Image5" runat="server" Height="35px" ImageUrl="~/Image/fb1.PNG" OnClick="Image5_Click" />
+                        &nbsp;&nbsp;&nbsp;&nbsp;
+                        <asp:ImageButton ID="Image7" runat="server" Height="35px" ImageUrl="~/Image/e1.PNG" OnClick="Image7_Click" PostBackUrl="~/contact.aspx" />
+                    </td>
+                    <td class="auto-style3" style="font-size: medium; font-style: normal; color:#010101; background-color: #010101; list-style-type: circle"><b><a href="welcome.aspx">Home</a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<br />
+                        <a href="login.aspx">Login</a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<br />
+                        <a href="aboutus.aspx">About Us</a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<br />
+                        <a href="contacus.aspx">Contac Us</a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 
+                        <br />
+         <a href="network.aspx">Network</a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<br />
+                        <a href="services.aspx">Services</a></b> <b>
+                        <br />
+          <a href="term.aspx" class="auto-style4">Term & Condition</a></b></td>
+                </tr>
+            </table>
+            </center>
+         
+    </form>
+</body>
+</html>
